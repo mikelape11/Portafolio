@@ -3,12 +3,16 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: #222222;
-    overflow-x: hidden;
 }
 
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
     margin: 0;
     padding: 0;
+}
+.division{
+    display: flex;
+    width: 200vw;
+    height: 100vh;
 }
 
 /* INTRO */
@@ -27,8 +31,18 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
     position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
+	background: #111111;
+	opacity: .85;
+}
+
+.intro-overlay2{
+    position: absolute;
+	top: 0;
+	left: 100vw;
+	width: 100vw;
+	height: 100vh;
 	background: #111111;
 	opacity: .85;
 }
@@ -86,21 +100,194 @@ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, t
     color: #EA4335;
 }
 
+.intro-social a:nth-child(1):hover{
+    color: #f52d1b;
+}
+
 .intro-social a:nth-child(2){
     color: #3b5998;
+}
+
+.intro-social a:nth-child(2):hover{
+    color: #1d4aaa;
 }
 
 .intro-social a:nth-child(3){
     color: #C51D34;
 }
 
+.intro-social a:nth-child(3):hover{
+    color: #e20926;
+}
+
 .intro-social a:nth-child(4){
     color: #00ACEE;
+}
+
+.intro-social a:nth-child(4):hover{
+    color: #0084b8;
 }
 
 .intro-social a:nth-child(5){
     color: #cccccc;
 }
+
+.intro-social a:nth-child(5):hover{
+    color: #888888;
+}
+
+/* ABOUT */
+
+.about{
+    width: 100vw;
+    height: fit-content;
+    background-color: #dddddd;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+    /* background: radial-gradient(#e6e6e6, transparent); */
+}
+
+.about-container{
+    margin: 0 32rem;
+    padding: 6rem 0;
+    width: 50%;
+}
+
+.section-name, .title{
+    text-align: center;
+}
+
+.section-name h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: lightseagreen;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+}   
+
+.title h4{
+    font-family: Verdana, sans-serif;
+    color: #242424;
+    font-size: 2.5rem;
+}
+
+.presentation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.photo{
+    width: 120px;
+    height: 120px;
+    /* background-color: lightseagreen; */
+    border-radius: 100px;
+}
+
+.mikel{
+    background: #151515 url('../images/mik.jpg') no-repeat center bottom;
+    background-size: cover;
+
+}
+
+.melanie{
+    background: #151515 url('../images/mel.jpg') no-repeat center bottom;
+    background-size: cover;
+
+}
+
+.description{
+    width: 82%;
+    line-height: 35px;
+    font-size: 1.5rem;
+    color: #303030;
+}
+
+.profile-skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.profile{
+    width: 45%;
+    margin: 0 2rem;
+}
+
+.profile h2{
+    font-family: Verdana, sans-serif;
+    color: #242424;
+}
+
+.profile p{
+    margin-top: 1rem;
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.skills{
+    width: 45%;
+    margin: 0 2rem;
+}
+
+.skills h2{
+    font-family: Verdana, sans-serif;
+    color: #242424;
+}
+
+.skills p{
+    margin-top: 1rem;
+    line-height: 25px;
+    font-size: 1.2rem;
+
+}
+
+.profile2-skills2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.profile2{
+    width: 45%;
+    margin: 0 2rem;
+}
+
+.profile2 h4{
+    font-family: Verdana, sans-serif;
+    color: #242424;
+}
+
+.profile2 p{
+    margin: 0 0 1rem 0;
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.skills2{
+    width: 45%;
+    margin: 0 2rem;
+}
+
+.skills2 h4{
+    font-family: Verdana, sans-serif;
+    color: #242424;
+}
+
+.skills2 p{
+    margin: 0.5rem 0 1rem 0;
+    line-height: 25px;
+    font-size: 1.2rem;
+
+}
+
+
+
 
 
 
