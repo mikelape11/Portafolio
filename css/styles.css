@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222222;
+    overflow-x: hidden;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* INTRO */
+
+.intro{
+    height: 100vh;
+    width: 100vw;
+    background: #151515 url('../images/moon.jpg') no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.intro-overlay{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #111111;
+	opacity: .85;
+}
+
+.intro-container{
+    -webkit-transform: translateY(-2.1rem);
+	-ms-transform: translateY(-2.1rem);
+	transform: translateY(-2.1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 90vh;
+    z-index: 3;
+}
+
+.intro h5{
+    margin: 1rem 0;
+    color: #1FCFCB;
+    font-size: 2.5rem;
+    font-family: Courier New, monospace;
+    text-transform: uppercase;
+}
+
+.intro h1{
+    color: whitesmoke;
+    font-size: 5rem;
+    font-family: Verdana, sans-serif;
+}
+
+.intro p{
+    margin: 1rem 0;
+    color:lightseagreen;
+    font-size: 1.5rem;
+    font-family: Courier New, monospace;
+}
+
+.intro-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    height: 10vh;
+    -webkit-transform: translateY(-2.1rem);
+	-ms-transform: translateY(-2.1rem);
+	transform: translateY(-2.1rem);
+}
+
+.intro-social a{
+    margin: 2rem;
+    font-size: 2.2rem;
+}
+
+.intro-social a:nth-child(1){
+    color: #EA4335;
+}
+
+.intro-social a:nth-child(2){
+    color: #3b5998;
+}
+
+.intro-social a:nth-child(3){
+    color: #C51D34;
+}
+
+.intro-social a:nth-child(4){
+    color: #00ACEE;
+}
+
+.intro-social a:nth-child(5){
+    color: #cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
